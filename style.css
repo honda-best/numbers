@@ -80,7 +80,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 0;
+    margin: -100px 0;
 }
 
 .btn-begin:hover {
@@ -99,7 +99,7 @@
    display: inline-block;
    font-size: 16px;
    transition-property: all;
-   transition-duration: 0.5s;
+   transition-duration: 0.3s;
    transition-delay: 0.1s;
    transition-timing-function: ease;
 }
@@ -109,6 +109,10 @@
    padding: 15px 75px;
    transition: ease;
    cursor: pointer;
+   transition-property: all;
+   transition-duration: 0.3s;
+   transition-delay: 0.1s;
+   transition-timing-function: ease;
 }
 
 .btn-group {
