@@ -1,0 +1,122 @@
+  
+.game-card {
+   height: 100vh;
+   font-family: 'Open Sans', monospace;
+   display: flex;
+   text-align: center;
+   justify-content:center;
+}
+
+.card {
+   background-color: rgb(233, 223, 166);
+   align-self:center;
+   border: 1px solid;
+   border-radius: 10px;
+   font-size: 25px;
+}
+
+.card-header {
+   color: darkslateblue;
+   font-size: 25px;
+   text-shadow: rgb(255, 0, 0);
+   margin-top: 5px;
+}
+
+.inputWindow {
+   border-radius: 5px;
+   transition: width 1s ease-in-out;
+   padding: 8px 0px;
+   margin: 5px 0;
+}
+
+.inputWindow:focus {
+   width: 45%;
+}
+
+.card-body {
+   margin: 20px;
+}
+
+.btn-info {
+   background-color: #4CAF50;
+   border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-info:hover {
+   background-color: #4ad378;
+   transition: ease;
+   cursor: pointer;
+}
+
+.btn-success {
+   background-color: #001aff;
+   border-radius: 100%;
+    color: white;
+    padding: 32px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-success:hover {
+   background-color: #18b5a4;
+   transition: ease;
+   cursor: pointer;
+}
+
+.btn-begin {
+   background-color: #ff0000;
+   border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.btn-begin:hover {
+   background-color: #ff5050;
+   transition: ease;
+   cursor: pointer;
+}
+
+.btn-link {
+   background-color: #434344;
+   border-radius: 8px;
+   color: white;
+   padding: 15px 55px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   transition-property: all;
+   transition-duration: 0.5s;
+   transition-delay: 0.1s;
+   transition-timing-function: ease;
+}
+
+.btn-link:hover {
+   background-color: #ac750f;
+   padding: 15px 75px;
+   transition: ease;
+   cursor: pointer;
+}
+
+.btn-group {
+   padding: 10px 10px;
+}
+
+.card-footer {
+   margin: 10px 0;
+}
+
+.btn:active, button:focus { outline: none; }

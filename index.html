@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Угадайка</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="game-card">
+            <div class="card">
+                <div class="card-header">
+                    <p class="m-0"><span id="orderNumberField"></span></p>
+                </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><span id="answerField"></span></h3>
+                        <div class="btn-group">
+                            <button class="btn btn-info" id="btnLess">Меньше</button>
+                            <button class="btn btn-success" id="btnEqual">Верно!</button>
+                            <button class="btn btn-info" id="btnOver">Больше</button>
+                        </div>
+                    </div>
+                        <div class="card-footer">
+                            <button class="btn btn-link btnRetry" id="btnRetry">Заново</button>
+                        </div>
+                        <div class="col">
+                            <p class="card-title"><span id="answerText">Введите числа от -999 до 999</span></p>
+                        </div>
+                        <div class="card-body">
+                            <div>
+                                <input class="inputWindow" id="inputWindowMin" type="text" placeholder="Минимальное число">
+                            </div>
+                            <div>
+                                <input class="inputWindow" id="inputWindowMax" type="text" placeholder="Максимальное число">
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn-link" id="btnStart">Ввести данные</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
